@@ -6,10 +6,10 @@ import { expect } from "chai";
 describe("Hello World", () => {
   it("should say hi", async () => {
     const contractFactory = await ethers.getContractFactory("HelloWorld");
-    const helloWorld = await contractFactory.deploy();
-    await helloWorld.deployed();
+    const contract = await contractFactory.deploy();
+    await contract.deployed();
     
-    expect(await helloWorld.sayHello()).to.equal("Hello, world!");
+    expect(await contract.sayHello()).to.equal("Hello, world!");
   });
 })
 
