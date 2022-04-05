@@ -214,6 +214,44 @@
       "artifacts": [
         "TestHero"
       ]
+    },
+    "/Users/rafaeltoledanoillan/Documents/repositories/jpegdegens/contracts/Fallback.sol": {
+      "lastModificationDate": 1649153078181,
+      "contentHash": "3ee47269f21e95571bee16d5ac95f59b",
+      "sourceName": "contracts/Fallback.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Fallback",
+        "IFallback"
+      ]
     }
   }
 }
